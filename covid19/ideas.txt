@@ -1,0 +1,15 @@
+COVID 19 - I worked in the banking sector and my job was to analyze and validate every banking model that used Statistics. It became necessary as you know due to the 2009 financial crisis in which governments had to bail out banks. The exercise was being done in every bank in a yearly fashion to avoid such repetitions or to ensure that the bank has capital at all times enough to sustain even during a crisis. The necessary element was also to ensure that the models have tested for various failing scenarios (such as increase in unemployment, decrease in GDP, change in foreign exchange) by firstly including such macro level factors in their models.
+
+Recently when the pandemic broke out and when I realized that the countries were in such similar state (a state of health crisis) and not being ready for the emergency, I felt that this models or a similar analogy could be also applied at a nation level to observe what is the requirement of nursing and hospitals in each country with different strategies. In a time bound class project, I put forth this idea that a nation wide model could be built which will further serve in the future to test each countries readiness for such an emergency. In the little time and analysis, I have surely made many assumptions that I would not have in a perfect case scenario. For example there will definitely be geographic correlation which I never took into consideration.
+
+
+
+1) Different Possible COVID 19 related models:
+  Currently there are a few countries which have given dynamic rating of "Red", "Orange", "Green" to areas that produced different levels of COID cases. Can this from one country be applied to a different country.
+    a) This relates a lot to geographic correlation. Work with Lucas as he has worked on similar topic before
+    b) We can merge the current national level variables such as Travel to create some additional variables.
+    c) This could also be merged with google mobility reports data (showing the level of lockdown in various countries)
+
+2) Constrained Optimization allows us to use log likelihood functions with additional information in the form of linear functions of parameters that we may already have. Thus, this allows for obtaining the likelihood optimizers under the condition that the variances in both phases are the same, or when we already know the number of cycles.
+
+3) What if we have only one cycle but multiple such BMT processes (possibly correlated) that follow the same cyclical distribution. Can we use these distinct & different samples to obtain a good estimate of up and down periods time lengths etc. Do you think we can use this for COVID, financial breakdown, or other such scenarios. This will let us apply BMT sort of process to even COVID related data.

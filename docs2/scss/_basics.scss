@@ -1,0 +1,36 @@
+body {
+  text-align: center;
+  > #container {
+    text-align:left;
+    margin:0 auto;
+    width:500px;
+  }
+}
+
+$color1: #63bdd7;
+$color2: #9c4228;
+$fontcolor1: #333;
+$fontcolor2: #9c4228;
+$border-radius: 7px;
+
+header {
+  h1 {
+    font-size:26px; margin-bottom:26px;
+  }
+}
+
+div[role="main"] {
+  background-image: linear-gradient(lighten($color1,30%),lighten($color2,30%));
+  border-radius: $border-radius * 3.5, $border-radius * 3.5;
+  border:3px solid $color2;
+  padding:$border-radius;
+  margin-bottom:25px;
+
+  ul {
+    padding-top:14px;
+  }
+  li {
+    color:$fontcolor1;
+    margin-bottom:12px;
+  }
+}
